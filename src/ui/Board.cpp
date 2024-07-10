@@ -1033,7 +1033,7 @@ vector<Resource> &sell) {
 // ========================= Display =========================
 
 void Board::message(string msg) {
-   printf(msg.c_str());
+   printf("%s", msg.c_str());
 }
 
 void Board::playerTurnStart(Player *player) {
