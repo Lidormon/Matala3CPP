@@ -1,0 +1,26 @@
+Dimentions: 23x33 (x34 with NULL char)
+(Because of special characters will be more than 33)
+
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBB┌─────┬─────┬─────┐BBBBBBB
+BBBBBBB│WWWWW│LLLLL│GGGGG│BBBBBBB
+BBBBBBB│ 10  │  2  │  9  │BBBBBBB
+BBBBBBB│     │     │     │BBBBBBB
+BBBB┌──┴──┬──┴──┬──┴──┬──┴──┐BBBB
+BBBB│YYYYY│OOOOO│LLLLL│OOOOO│BBBB
+BBBB│ 12  │  6  │  4  │ 10  │BBBB
+BBBB│     │     │     │     │BBBB
+B┌──┴──┬──┴──┬──┴──┬──┴──┬──┴──┐B
+B│YYYYY│GGGGG│DDDDD│GGGGG│WWWWW│B
+B│  9  │ 11  │  7  │  3  │  8  │B
+B│     │     │     │     │     │B
+B└──┬──┴──┬──┴──┬──┴──┬──┴──┬──┘B
+BBBB│GGGGG│WWWWW│YYYYY│LLLLL│BBBB
+BBBB│  8  │  3  │  4  │  5  │BBBB
+BBBB│     │     │     │     │BBBB
+BBBB└──┬──┴──┬──┴──┬──┴──┬──┘BBBB
+BBBBBBB│OOOOO│YYYYY│LLLLL│BBBBBBB
+BBBBBBB│  5  │  6  │ 11  │BBBBBBB
+BBBBBBB│     │     │     │BBBBBBB
+BBBBBBB└─────┴─────┴─────┘BBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
