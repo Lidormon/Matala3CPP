@@ -19,13 +19,15 @@ compile: init $(BIN) test
 clean:
 	rm -rf $(BIN) obj/* dep/*
 
+
 init:
 	mkdir -p obj obj/ui obj/test dep dep/ui dep/test
 
 test: init $(TESTBIN)
 
-$(BIN): $(OBJ)
+$(BIN): init $(OBJ)
 	$(CC) $(FLAGS) $(OBJ) -o $(BIN)
+	$(BIN) 
 
 $(TESTBIN): $(TEST_OBJ)
 	$(CC) $(FLAGS) $(TEST_OBJ) -o $(TESTBIN)
@@ -33,7 +35,7 @@ $(TESTBIN): $(TEST_OBJ)
 -include $(DEP)
 
 obj/%.o:
-# 	mkdir -p $(@D)
+	mkdir -p $(@D)
 	$(CC) $(FLAGS) -c $< -o $@
 
 dep/%.d: src/%.cpp
