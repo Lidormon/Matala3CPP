@@ -24,6 +24,7 @@ init:
 	mkdir -p obj obj/ui obj/test dep dep/ui dep/test
 
 test: init $(TESTBIN)
+	$(TESTBIN)
 
 $(BIN): init $(OBJ)
 	$(CC) $(FLAGS) $(OBJ) -o $(BIN)
